@@ -1,1 +1,26 @@
+iframe {
+  width: 100%; /* S'étend sur toute la largeur du conteneur */
+  height: 500px; /* Hauteur fixe */
+  border: none; /* Supprime la bordure */
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 80%; /* Ajuste la largeur */
+  height: 400px;
+}
+
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9; /* Ratio d'un écran classique */
+  border: none;
+}
+
+iframe {
+  width: 90%;
+  height: 400px;
+  border-radius: 10px; /* Arrondi des bords */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre */
+}
 
