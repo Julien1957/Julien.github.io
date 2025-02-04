@@ -3,6 +3,7 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex; /* Affichage en ligne */
+  justify-content: center;
 }
 
 nav ul li {
