@@ -1,1 +1,25 @@
+nav ul {
+  list-style-type: none; /* Supprime les puces de la liste */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Affichage en ligne */
+}
+
+nav ul li {
+  margin-right: 15px; /* Espacement entre les éléments */
+}
+
+nav ul li a {
+  text-decoration: none; /* Supprime le soulignement des liens */
+  color: black; /* Couleur du texte */
+  font-weight: bold; /* Met le texte en gras */
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px; /* Coins arrondis */
+}
+
+nav ul li a:hover {
+  background-color: gray;
+  color: white;
+}
 
