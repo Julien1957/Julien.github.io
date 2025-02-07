@@ -1,8 +1,6 @@
-body {
-  background-color: lightblue; /* Fond bleu clair */
-}
+
         body {
-            background-color: lightblue;
+            background-color: rgb(100, 100, 100);
         }
         nav ul {
             list-style-type: none;
@@ -10,20 +8,21 @@ body {
             margin: 0;
             display: flex;
             justify-content: center;
-        }
+        }	
         nav ul li {
             margin: 0 15px;
         }
         nav ul li a {
             text-decoration: none;
             font-weight: bold;
-            background: white;
+			font-family: "Arial", sans-serif; 
+            background: rgb(300, 300, 300);
             padding: 10px;
             border-radius: 5px;
         }
         nav ul li a:hover {
-            background-color: black;
-            color: white;
+            background-color: rgb(41, 41, 41);
+            color: rgb(300, 300, 300);
         }
         iframe {
             width: 100%;
@@ -31,10 +30,26 @@ body {
             border: none;
             display: block;
             margin-top: 10px;
-            background: white;
+            background: rgb(300, 300, 300);
         }
 
 .3Dphoto {
 
 }
 
+.text2selection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-align: center;  
+	font-family: "Arial", sans-serif; 
+}
+
+
+
+h1 {
+    margin: 0; 
+    padding-top: 20px; 
+}
